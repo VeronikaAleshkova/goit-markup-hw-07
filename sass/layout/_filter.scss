@@ -1,0 +1,12 @@
+.filters {
+  display: flex;
+  justify-content: center;
+}
+
+.filters--margin {
+  margin-bottom: 50px;
+}
+
+.filters__item:not(:last-child) {
+  margin-right: 8px;
+}
